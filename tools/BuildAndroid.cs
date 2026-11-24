@@ -158,6 +158,8 @@ public static class BuildAndroid
             {
                 // Datos sin comprimir: la APK los reconstruye byte a byte con la copia del usuario
                 opts = BuildOptions.None;
+                // El logo de Ludic de la lista del splash (desactivado) acabaría dentro de la APK
+                PlayerSettings.SplashScreen.logos = new PlayerSettings.SplashScreenLogo[0];
                 ApplyPcTextureFormats();
                 MakeBootScene();
                 scenes = new[] { BootScene }.Concat(scenes).ToArray();
