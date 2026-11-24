@@ -1,0 +1,3 @@
+# variante	descripción en castellano	descripción en inglés
+steam-windows	Steam, versión de Windows	Steam, Windows version
+steam-linux	Steam, versión de Linux	Steam, Linux version
